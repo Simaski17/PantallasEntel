@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="AzulEntel">#0154A0</color>
+    <color name="NarajoEntel">#ff6702</color>
+    <color name="NaranjaEntel">#ff5a00</color>
+    <color name="GrisClaroEntel">#b3b1b3</color>
+    <color name="GrisOscuroEntel">#636467</color>
+    <color name="GrisTextoOscuro">#4a4a4a</color>
+    <color name="BlancoEntel">#f1f1f1</color>
+    <color name="blanco">#ffffff</color>
+    <color name="black">#000000</color>
+
+</resources>

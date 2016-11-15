@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/material_tabs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lgcincoatres"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="248dp"
+        android:layout_height="62dp"
+        android:background="@drawable/logoentelazul"
+        android:layout_marginLeft="415dp"
+        android:layout_marginTop="65dp"/>
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="995dp"
+        android:layout_height="1540dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginLeft="26dp"
+        tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+        <RelativeLayout
+            android:layout_width="888dp"
+            android:layout_marginLeft="71dp"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:layout_width="342dp"
+                android:layout_height="232dp"
+                android:background="@drawable/lgcincotitulotres"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="89dp"/>
+
+
+            <TextView
+                android:id="@+id/ivTituloTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LG"
+                android:textSize="22.5sp"
+                android:textStyle="italic"
+                android:textColor="@color/NaranjaEntel"
+                android:layout_marginTop="975dp"
+                android:layout_marginLeft="342dp"/>
+
+            <TextView
+                android:id="@+id/ivTituloMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G5 SE"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:textColor="@color/AzulEntel"
+                android:layout_marginTop="996dp"
+                android:layout_marginLeft="342dp"/>
+
+            <TextView
+                android:id="@+id/ivTituloMarca2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="_"
+                android:textSize="55sp"
+                android:textStyle="bold"
+                android:textColor="@color/NaranjaEntel"
+                android:layout_marginTop="996dp"
+                android:layout_marginLeft="495dp"/>
+
+
+
+            <TextView
+                android:id="@+id/ivTituloDospnuevo"
+                android:layout_width="630dp"
+                android:layout_height="138dp"
+                android:text="@string/saca_una_foto"
+                android:gravity="center"
+                android:textSize="22.5sp"
+                android:lineSpacingExtra="8dp"
+                android:textColor="@color/GrisOscuroEntel"
+                android:layout_marginTop="1092dp"
+                android:layout_marginLeft="137dp"/>
+
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="820dp"
+            android:layout_height="480dp"
+            android:background="@drawable/lgcincotres"
+            android:layout_marginTop="498dp"
+            android:layout_marginLeft="145dp"/>
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/ivFlechaIzquierda"
+        android:layout_width="24dp"
+        android:layout_height="38dp"
+        android:background="@drawable/flechagrisizq"
+        android:layout_marginTop="910dp"
+        android:layout_marginLeft="29dp"/>
+
+    <ImageView
+        android:id="@+id/ivFlechaDerecha"
+        android:layout_width="24dp"
+        android:layout_height="38dp"
+        android:background="@drawable/flechagrisdere"
+        android:layout_marginTop="910dp"
+        android:layout_marginRight="29dp"
+        android:layout_alignParentRight="true"/>
+
+
+    <com.rinno.simaski.pantallasentel.ViewPagerIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/pager_indicator"
+        android:layout_below="@+id/pager"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="995dp"
+        android:layout_height="1540dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginLeft="26dp"
+        android:id="@+id/pager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
