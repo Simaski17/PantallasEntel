@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="373dp"
+            android:layout_height="112dp"
+            android:background="@drawable/galaxyssieteedgetitulodos"
+            android:layout_marginLeft="272dp"
+            android:layout_marginTop="94dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAMSUNG"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="455dp"
+            android:layout_marginLeft="420dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galaxy S7_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="476dp"
+            android:layout_marginLeft="420dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloGracias"
+            android:layout_width="385dp"
+            android:layout_height="190dp"
+            android:text="Muchos de los momentos que más fotografiamos en nuestras vidas suceden cuando no hay suficiente luz, ya sea porque son en interiores o porque es de noche."
+            android:textSize="22sp"
+            android:lineSpacingExtra="13dp"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="420dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="605dp"
+            android:layout_height="140dp"
+            android:text="Esto ya no será un problema con Galaxy S7 y S7 edge. Su lente F1.7 más brillante y los pixeles 1.4µm más grandes en el sensor de imagen permiten capturar mucha más luz, logrando fotos nítidas y detalladas."
+            android:gravity="center"
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisTextoOscuro"
+            android:layout_marginTop="1093dp"
+            android:layout_marginLeft="140dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="464dp"
+        android:layout_height="611dp"
+        android:background="@drawable/galaxyssieteedgeimgdos"
+        android:layout_marginTop="324dp"
+        android:layout_marginLeft="35dp"/>
+
+</FrameLayout>

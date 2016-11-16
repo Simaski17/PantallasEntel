@@ -60,7 +60,7 @@
             android:id="@+id/ivTituloDospnuevo"
             android:layout_width="630dp"
             android:layout_height="138dp"
-            android:text="@string/saca_una_foto"
+            android:text="Saca una foto utilizando las dos cámaras al mismo tiempo y conseguirás una imagen a la que podrás añadir diferentes efectos (ojo de pez, blanco y negro, viñeta y efecto desenfoque) para personalizarlas."
             android:gravity="center"
             android:textSize="22.5sp"
             android:lineSpacingExtra="8dp"

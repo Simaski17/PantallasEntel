@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="232dp"
+            android:background="@drawable/iphonecuatroseimgtitulotres"
+            android:layout_marginLeft="227dp"
+            android:layout_marginTop="88dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="985dp"
+            android:layout_marginLeft="294dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone SE"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/AzulEntel"
+            android:layout_marginTop="1006dp"
+            android:layout_marginLeft="294dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="1008dp"
+            android:layout_marginLeft="555dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="663dp"
+            android:layout_height="138dp"
+            android:text="Haz unas fotos increíbles con la cámara de 12 megapíxeles, igual que la del iPhone 6s. También puedes grabar y editar vídeos en resolución 4K, hasta cuatro veces mayor que 1080p HD. Sí, deja la cámara de fotos en casa."
+            android:gravity="center"
+            android:textSize="22sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisOscuroEntel"
+            android:layout_marginTop="1110dp"
+            android:layout_marginLeft="112dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="680dp"
+        android:layout_height="312dp"
+        android:background="@drawable/iphonecuatroseimgtres"
+        android:layout_marginTop="543dp"
+        android:layout_marginLeft="185dp"/>
+
+</FrameLayout>

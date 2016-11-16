@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="441dp"
+            android:layout_height="230dp"
+            android:background="@drawable/galaxyssietetitulotres"
+            android:layout_marginLeft="224dp"
+            android:layout_marginTop="88dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAMSUNG"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="985dp"
+            android:layout_marginLeft="391dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galaxy S7"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/AzulEntel"
+            android:layout_marginTop="1005dp"
+            android:layout_marginLeft="298dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="1008dp"
+            android:layout_marginLeft="557dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="655dp"
+            android:layout_height="138dp"
+            android:text="Una combinación explosiva entre su nueva CPU personalizada, potente GPU y 4GB RAM. Todo sucede más rápido y fluido, desde abrir Apps hasta jugar o ver videos en streaming. Tu teléfono funcionará siempre como el primer día."
+            android:gravity="center"
+            android:textSize="22sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisOscuroEntel"
+            android:layout_marginTop="1108dp"
+            android:layout_marginLeft="106dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="768dp"
+        android:layout_height="291dp"
+        android:background="@drawable/galaxyssieteimgtres"
+        android:layout_marginTop="666dp"
+        android:layout_marginLeft="129dp"/>
+
+</FrameLayout>

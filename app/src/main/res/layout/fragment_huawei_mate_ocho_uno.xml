@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="190dp"
+            android:background="@drawable/equipodestacado"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="100dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="616dp"
+            android:layout_height="100dp"
+            android:background="@drawable/bajadahuaweipochomate"
+            android:layout_marginTop="1095dp"
+            android:layout_marginLeft="135dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="525dp"
+        android:background="@drawable/mateochounoa"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="285dp"/>
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="615dp"
+        android:background="@drawable/mateochouno"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="320dp"/>
+
+</FrameLayout>

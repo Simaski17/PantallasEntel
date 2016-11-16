@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="115dp"
+            android:background="@drawable/mateochotitulodos"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="93dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huawei"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="483dp"
+            android:layout_marginLeft="63dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mate 8_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="503dp"
+            android:layout_marginLeft="63dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloGracias"
+            android:layout_width="415dp"
+            android:layout_height="158dp"
+            android:text="Al subirte a un avión y encontrándote lejos de tu casa, podrás confiar en que Mate 8 estará contigo."
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="13dp"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="585dp"
+            android:layout_marginLeft="63dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="655dp"
+            android:layout_height="148dp"
+            android:text="La doble SIM del Mate 8 tiene el rango de frecuencias en todo el mundo más amplio que cualquier smartphone, lo que significa que puedes disfrutar de los servicios de roaming y conectividad de alta velocidad vayas donde vayas."
+            android:gravity="center"
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisTextoOscuro"
+            android:layout_marginTop="1105dp"
+            android:layout_marginLeft="130dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="640dp"
+        android:background="@drawable/mateochodosa"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="512dp"/>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="665dp"
+        android:background="@drawable/mateochodos"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="625dp"/>
+
+</FrameLayout>

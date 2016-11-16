@@ -60,7 +60,7 @@
             android:id="@+id/ivTituloDospnuevo"
             android:layout_width="615dp"
             android:layout_height="138dp"
-            android:text="@string/descubre_un_mundo"
+            android:text="Descubre un mundo más vivo que nunca, que se acerca aún más a sus colores naturales en una impresionante pantalla de 5,2 pulgadas Full HD con una saturación del color del 96% y alto contraste."
             android:gravity="center"
             android:textSize="22.5sp"
             android:lineSpacingExtra="8dp"

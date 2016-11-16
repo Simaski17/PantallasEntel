@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment"
+    android:id="@+id/frameLayout">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="232dp"
+            android:background="@drawable/mateochotitulotres"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="87dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HUAWEI"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="986dp"
+            android:layout_marginLeft="322dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mate 8"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/AzulEntel"
+            android:layout_marginTop="1007dp"
+            android:layout_marginLeft="322dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="1009dp"
+            android:layout_marginLeft="495dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="710dp"
+            android:layout_height="138dp"
+            android:text="Con el nuevo chipset que ofrece el equilibrio ideal entre la alta potencia y bajo consumo, Mate 8 introduce una nueva dimensión con el rendimiento del smartphone. Kirin 950 es más ágil, con un consumo de energía de forma eficiente y mucho más rápido."
+            android:gravity="center"
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisOscuroEntel"
+            android:layout_marginTop="1110dp"
+            android:layout_marginLeft="98dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="735dp"
+        android:layout_height="200dp"
+        android:background="@drawable/mateochotres"
+        android:layout_marginTop="785dp"
+        android:layout_marginLeft="145dp"/>
+
+    <ImageView
+        android:layout_width="708dp"
+        android:layout_height="200dp"
+        android:background="@drawable/mateochotresa"
+        android:layout_marginTop="639dp"
+        android:layout_marginLeft="157dp"/>
+
+</FrameLayout>
+

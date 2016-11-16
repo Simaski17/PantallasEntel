@@ -9,6 +9,7 @@
 
 
     <ImageView
+        android:id="@+id/imgArriba"
         android:layout_width="248dp"
         android:layout_height="62dp"
         android:background="@drawable/logoentelazul"
@@ -52,6 +53,22 @@
 
         </RelativeLayout>
 
+    <com.rinno.simaski.pantallasentel.ViewPagerIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/pager_indicator"
+        android:layout_below="@+id/pager"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="995dp"
+        android:layout_height="1540dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginLeft="26dp"
+        android:id="@+id/pager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
 
     <ImageView
         android:id="@+id/ivFlechaIzquierda"
@@ -70,20 +87,4 @@
         android:layout_marginRight="29dp"
         android:layout_alignParentRight="true"/>
 
-
-    <com.rinno.simaski.pantallasentel.ViewPagerIndicator
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal|center_vertical"
-        android:id="@+id/pager_indicator"
-        android:layout_below="@+id/pager"/>
-
-    <android.support.v4.view.ViewPager
-        android:layout_width="995dp"
-        android:layout_height="1540dp"
-        android:layout_marginTop="203dp"
-        android:layout_marginLeft="26dp"
-        android:id="@+id/pager"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
 </RelativeLayout>

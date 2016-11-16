@@ -1,13 +1,82 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.rinno.simaski.pantallasentel.XperiaXTresFragment">
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="71dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="336dp"
+            android:layout_height="232dp"
+            android:background="@drawable/xperiaxtitulotres"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="89dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SONY"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="975dp"
+            android:layout_marginLeft="322dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xperia X"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/AzulEntel"
+            android:layout_marginTop="996dp"
+            android:layout_marginLeft="322dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="996dp"
+            android:layout_marginLeft="539dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="630dp"
+            android:layout_height="138dp"
+            android:text="Duración de batería que te mantiene con energía durante días Nunca es un buen momento para que tu teléfono se rinda. Cuando estás a media carrera, o en lo mejor de un chat grupal."
+            android:gravity="center"
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisOscuroEntel"
+            android:layout_marginTop="1092dp"
+            android:layout_marginLeft="130dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="720dp"
+        android:layout_height="339dp"
+        android:background="@drawable/xperiaximgtres"
+        android:layout_marginTop="537dp"
+        android:layout_marginLeft="155dp"/>
 
 </FrameLayout>
