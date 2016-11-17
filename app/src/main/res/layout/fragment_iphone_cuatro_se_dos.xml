@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -79,13 +79,13 @@
         android:layout_height="635dp"
         android:background="@drawable/iphonecuatroseimgdosa"
         android:layout_marginTop="427dp"
-        android:layout_marginLeft="40dp"/>
+        android:layout_marginLeft="67dp"/>
 
     <ImageView
         android:layout_width="257dp"
         android:layout_height="645dp"
         android:background="@drawable/iphonecuatroseimgdos"
         android:layout_marginTop="285dp"
-        android:layout_marginLeft="192dp"/>
+        android:layout_marginLeft="218dp"/>
 
 </FrameLayout>

@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -77,6 +77,6 @@
         android:layout_height="291dp"
         android:background="@drawable/galaxyssieteimgtres"
         android:layout_marginTop="666dp"
-        android:layout_marginLeft="129dp"/>
+        android:layout_marginLeft="155dp"/>
 
 </FrameLayout>

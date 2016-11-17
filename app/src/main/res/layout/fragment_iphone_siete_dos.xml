@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -79,6 +79,6 @@
         android:layout_height="669dp"
         android:background="@drawable/iphonesieteimgdos"
         android:layout_marginTop="364dp"
-        android:layout_marginLeft="50dp"/>
+        android:layout_marginLeft="76dp"/>
 
 </FrameLayout>

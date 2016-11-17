@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -78,14 +78,14 @@
         android:layout_height="200dp"
         android:background="@drawable/mateochotres"
         android:layout_marginTop="785dp"
-        android:layout_marginLeft="145dp"/>
+        android:layout_marginLeft="171dp"/>
 
     <ImageView
         android:layout_width="708dp"
         android:layout_height="200dp"
         android:background="@drawable/mateochotresa"
         android:layout_marginTop="639dp"
-        android:layout_marginLeft="157dp"/>
+        android:layout_marginLeft="184dp"/>
 
 </FrameLayout>
 

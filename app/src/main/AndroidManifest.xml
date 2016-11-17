@@ -17,7 +17,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivityDos"></activity>
+        <activity
+            android:name=".HuaweiMateOchoActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".HuaweiPNueveActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".IphoneCuatroSeActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".IphoneSieteActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".IphoneSietePlusActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".LgGCincoActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".SamsungSSieteActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".SamsungSSieteEdgeActivity"
+            android:theme="@style/myTema">
+        </activity>
+        <activity
+            android:name=".XperiaXActivity"
+            android:theme="@style/myTema">
+        </activity>
     </application>
 
 </manifest>

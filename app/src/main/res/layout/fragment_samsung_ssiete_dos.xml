@@ -3,12 +3,11 @@
     android:layout_width="995dp"
     android:layout_height="1540dp"
     android:layout_marginTop="202dp"
-    android:layout_marginLeft="26dp"
-    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+    android:layout_marginLeft="26dp">
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -79,6 +78,6 @@
         android:layout_height="555dp"
         android:background="@drawable/galaxyssieteimgdos"
         android:layout_marginTop="380dp"
-        android:layout_marginLeft="100dp"/>
+        android:layout_marginLeft="126dp"/>
 
 </FrameLayout>

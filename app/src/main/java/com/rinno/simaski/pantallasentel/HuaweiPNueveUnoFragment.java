@@ -23,7 +23,7 @@ public class HuaweiPNueveUnoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_huawei_pnueve_dos, container, false);
+        return inflater.inflate(R.layout.fragment_huawei_pnueve_uno, container, false);
     }
 
 }

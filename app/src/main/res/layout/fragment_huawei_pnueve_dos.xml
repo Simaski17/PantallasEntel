@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -78,6 +78,7 @@
         android:layout_width="500dp"
         android:layout_height="742dp"
         android:background="@drawable/pnuevedos"
-        android:layout_marginTop="330dp"/>
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="26dp"/>
 
 </FrameLayout>

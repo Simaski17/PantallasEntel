@@ -37,20 +37,6 @@
             android:background="@drawable/cuadronegro"/>
 
 
-        <!--Boton ingreso vendedor-->
-        <Button
-            android:id="@+id/btIrCatalogo"
-            android:text="@string/ver_mas_equipos_destacados"
-            android:textSize="24dp"
-            android:textColor="@color/BlancoEntel"
-            android:textAllCaps="false"
-            android:layout_width="395dp"
-            android:layout_height="82dp"
-            android:layout_alignParentBottom="true"
-            android:layout_marginLeft="246dp"
-            android:layout_marginBottom="120dp"
-            android:background="@drawable/bordes_redondeados_boton_entrar_ingreso"/>
-
     </RelativeLayout>
 
     <com.rinno.simaski.pantallasentel.ViewPagerIndicator
@@ -61,13 +47,26 @@
         android:layout_below="@+id/pager"/>
 
     <android.support.v4.view.ViewPager
-        android:layout_width="995dp"
+        android:layout_width="match_parent"
         android:layout_height="1540dp"
         android:layout_marginTop="203dp"
-        android:layout_marginLeft="26dp"
         android:id="@+id/pager"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
+
+    <!--Boton ingreso vendedor-->
+    <Button
+        android:id="@+id/btIrCatalogo"
+        android:text="@string/ver_mas_equipos_destacados"
+        android:textSize="24dp"
+        android:textColor="@color/BlancoEntel"
+        android:textAllCaps="false"
+        android:layout_width="395dp"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="342dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/bordes_redondeados_boton_entrar_ingreso"/>
 
 
     <ImageView

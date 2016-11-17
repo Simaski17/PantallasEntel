@@ -87,7 +87,7 @@ public class ViewPagerIndicator extends LinearLayout implements ViewPager.OnPage
         {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ViewPagerIndicator);
 
-            mSelectedColor = a.getColor(R.styleable.ViewPagerIndicator_selectedColor, getThemeColor(context, R.attr.colorPrimaryDark));
+            mSelectedColor =   a.getColor(R.styleable.ViewPagerIndicator_selectedColor, getThemeColor(context, R.attr.colorPrimaryDark));
             mDeselectedColor = a.getColor(R.styleable.ViewPagerIndicator_deselectedColor, Color.LTGRAY);
             mSelectedDrawable = a.getResourceId(R.styleable.ViewPagerIndicator_selectedDrawable, -1);
             mDeselectedDrawable = a.getResourceId(R.styleable.ViewPagerIndicator_deselectedDrawable, -1);

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Huawei Mate 8"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btHuaweiMateOcho" />
+
+    <Button
+        android:text="Huawei P9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btHuaweiPNueve" />
+
+    <Button
+        android:text="Iphone 4SE"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btIphoneCuatroSe" />
+
+    <Button
+        android:text="Iphone 7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btIphoneSiete" />
+
+    <Button
+        android:text="Iphone 7 Plus"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btIphoneSietePlus" />
+
+    <Button
+        android:text="LG G5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btLgGCinco" />
+
+    <Button
+        android:text="Samsung S7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btSamsungSSiete" />
+
+    <Button
+        android:text="Samsung S7 Edge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btSamsungSSieteEdge" />
+
+    <Button
+        android:text="Xperia X"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btXperiaX" />
+
+</LinearLayout>

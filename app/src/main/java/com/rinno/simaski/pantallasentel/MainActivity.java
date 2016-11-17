@@ -1,17 +1,12 @@
 package com.rinno.simaski.pantallasentel;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -20,15 +15,24 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-    int contCast = 0;
-    @BindView(R.id.ivFlechaIzquierda)
-    ImageView ivFlechaIzquierda;
-    @BindView(R.id.ivFlechaDerecha)
-    ImageView ivFlechaDerecha;
-    //@BindView(R.id.pager)
-    ViewPager pager;
-    @BindView(R.id.btIrCatalogo)
-    Button btIrCatalogo;
+    @BindView(R.id.btHuaweiMateOcho)
+    Button btHuaweiMateOcho;
+    @BindView(R.id.btHuaweiPNueve)
+    Button btHuaweiPNueve;
+    @BindView(R.id.btIphoneCuatroSe)
+    Button btIphoneCuatroSe;
+    @BindView(R.id.btIphoneSiete)
+    Button btIphoneSiete;
+    @BindView(R.id.btIphoneSietePlus)
+    Button btIphoneSietePlus;
+    @BindView(R.id.btLgGCinco)
+    Button btLgGCinco;
+    @BindView(R.id.btSamsungSSiete)
+    Button btSamsungSSiete;
+    @BindView(R.id.btSamsungSSieteEdge)
+    Button btSamsungSSieteEdge;
+    @BindView(R.id.btXperiaX)
+    Button btXperiaX;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,73 +47,64 @@ public class MainActivity extends AppCompatActivity {
         /*
          * Cargando contenido del layout
 		 */
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
         ButterKnife.bind(this);
 
 
-        pager = (ViewPager) findViewById(R.id.pager);
-        ViewPagerIndicator indicator = (ViewPagerIndicator) findViewById(R.id.pager_indicator);
-        pager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
-
-        indicator.setPager(pager);
-
-
     }
 
-    @OnClick({R.id.ivFlechaIzquierda, R.id.ivFlechaDerecha, R.id.btIrCatalogo})
+
+    @OnClick({R.id.btHuaweiMateOcho, R.id.btHuaweiPNueve, R.id.btIphoneCuatroSe, R.id.btIphoneSiete, R.id.btIphoneSietePlus, R.id.btLgGCinco, R.id.btSamsungSSiete, R.id.btSamsungSSieteEdge, R.id.btXperiaX})
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.ivFlechaIzquierda:
-                Toast.makeText(getApplication(), "Flecha", Toast.LENGTH_SHORT).show();
-                pager.setCurrentItem(pager.getCurrentItem() - 1, true); //getItem(-1) for previous
+            case R.id.btHuaweiMateOcho:
+                Intent i = new Intent(MainActivity.this,HuaweiMateOchoActivity.class);
+                startActivity(i);
+                MainActivity.this.finish();
                 break;
-            case R.id.ivFlechaDerecha:
-                Toast.makeText(getApplication(), "Flecha derecha", Toast.LENGTH_SHORT).show();
-                pager.setCurrentItem(pager.getCurrentItem() + 1, true); //getItem(-1) for previous
+            case R.id.btHuaweiPNueve:
+                Intent i2 = new Intent(MainActivity.this ,HuaweiPNueveActivity.class);
+                startActivity(i2);
+                MainActivity.this.finish();
                 break;
-            case R.id.btIrCatalogo:
-                Toast.makeText(getApplication(), "Flecha", Toast.LENGTH_SHORT).show();
-                //pager.setCurrentItem(pager.getCurrentItem() + 1, true); //getItem(-1) for previous
+            case R.id.btIphoneCuatroSe:
+                Intent i3 = new Intent(MainActivity.this ,IphoneCuatroSeActivity.class);
+                startActivity(i3);
+                MainActivity.this.finish();
+                break;
+            case R.id.btIphoneSiete:
+                Intent i4 = new Intent(MainActivity.this ,IphoneSieteActivity.class);
+                startActivity(i4);
+                MainActivity.this.finish();
+                break;
+            case R.id.btIphoneSietePlus:
+                Intent i5 = new Intent(MainActivity.this ,IphoneSietePlusActivity.class);
+                startActivity(i5);
+                MainActivity.this.finish();
+                break;
+            case R.id.btLgGCinco:
+                Intent i6 = new Intent(MainActivity.this ,LgGCincoActivity.class);
+                startActivity(i6);
+                MainActivity.this.finish();
+                break;
+            case R.id.btSamsungSSiete:
+                Intent i7 = new Intent(MainActivity.this ,SamsungSSieteActivity.class);
+                startActivity(i7);
+                MainActivity.this.finish();
+                break;
+            case R.id.btSamsungSSieteEdge:
+                Intent i8 = new Intent(MainActivity.this ,SamsungSSieteEdgeActivity.class);
+                startActivity(i8);
+                MainActivity.this.finish();
+                break;
+            case R.id.btXperiaX:
+                Intent i9 = new Intent(MainActivity.this ,XperiaXActivity.class);
+                startActivity(i9);
+                MainActivity.this.finish();
                 break;
         }
     }
 
-    private class MyPagerAdapter extends FragmentPagerAdapter {
-
-        public MyPagerAdapter(FragmentManager fm) {
-            super(fm);
-        }
-
-        @Override
-        public Fragment getItem(int pos) {
-            switch (pos) {
-
-                case 0:
-                    return new HuaweiPNueveTresFragment();
-                case 1:
-                    return new HuaweiPNueveUnoFragment();
-                case 2:
-                    return new SamsungSSieteUnoFragment();
-                case 3:
-                    return new SamsungSSieteDosFragment();
-                case 4:
-                    return new SamsungSSieteTresFragment();
-                case 5:
-                    return new SamsungSSieteEdgeUnoFragment();
-                case 6:
-                    return new SamsungSSieteEdgeDosFragment();
-                case 7:
-                    return new SamsungSSieteEdgeTresFragment();
-                default:
-                    return new HuaweiPNueveTresFragment();
-            }
-        }
-
-        @Override
-        public int getCount() {
-            return 8;
-        }
-    }
 }
 
 

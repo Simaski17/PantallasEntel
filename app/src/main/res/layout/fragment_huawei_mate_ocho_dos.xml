@@ -1,6 +1,6 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="995dp"
+    android:layout_width="match_parent"
     android:layout_height="1540dp"
     android:layout_marginTop="202dp"
     android:layout_marginLeft="26dp"
@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -75,17 +75,19 @@
     </RelativeLayout>
 
     <ImageView
+        android:id="@+id/mate8"
         android:layout_width="370dp"
         android:layout_height="640dp"
         android:background="@drawable/mateochodosa"
         android:layout_marginTop="375dp"
-        android:layout_marginLeft="512dp"/>
+        android:layout_marginLeft="538dp"/>
 
     <ImageView
+        android:id="@+id/mate88"
         android:layout_width="370dp"
         android:layout_height="665dp"
         android:background="@drawable/mateochodos"
         android:layout_marginTop="360dp"
-        android:layout_marginLeft="625dp"/>
+        android:layout_marginLeft="651dp"/>
 
 </FrameLayout>

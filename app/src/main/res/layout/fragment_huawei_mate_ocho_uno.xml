@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="888dp"
-        android:layout_marginLeft="71dp"
+        android:layout_marginLeft="97dp"
         android:layout_height="match_parent">
 
 
@@ -43,13 +43,13 @@
         android:layout_height="525dp"
         android:background="@drawable/mateochounoa"
         android:layout_marginTop="285dp"
-        android:layout_marginLeft="285dp"/>
+        android:layout_marginLeft="311dp"/>
 
     <ImageView
         android:layout_width="450dp"
         android:layout_height="615dp"
         android:background="@drawable/mateochouno"
         android:layout_marginTop="420dp"
-        android:layout_marginLeft="320dp"/>
+        android:layout_marginLeft="346dp"/>
 
 </FrameLayout>
