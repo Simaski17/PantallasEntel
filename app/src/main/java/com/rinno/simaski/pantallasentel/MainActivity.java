@@ -58,51 +58,39 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btHuaweiMateOcho:
-                Intent i = new Intent(MainActivity.this,HuaweiMateOchoActivity.class);
-                startActivity(i);
-                MainActivity.this.finish();
+                Intencion(HuaweiMateOchoActivity.class);
                 break;
             case R.id.btHuaweiPNueve:
-                Intent i2 = new Intent(MainActivity.this ,HuaweiPNueveActivity.class);
-                startActivity(i2);
-                MainActivity.this.finish();
+                Intencion(HuaweiPNueveActivity.class);
                 break;
             case R.id.btIphoneCuatroSe:
-                Intent i3 = new Intent(MainActivity.this ,IphoneCuatroSeActivity.class);
-                startActivity(i3);
-                MainActivity.this.finish();
+                Intencion(IphoneCuatroSeActivity.class);
                 break;
             case R.id.btIphoneSiete:
-                Intent i4 = new Intent(MainActivity.this ,IphoneSieteActivity.class);
-                startActivity(i4);
-                MainActivity.this.finish();
+                Intencion(IphoneSieteActivity.class);
                 break;
             case R.id.btIphoneSietePlus:
-                Intent i5 = new Intent(MainActivity.this ,IphoneSietePlusActivity.class);
-                startActivity(i5);
-                MainActivity.this.finish();
+                Intencion(IphoneSietePlusActivity.class);
                 break;
             case R.id.btLgGCinco:
-                Intent i6 = new Intent(MainActivity.this ,LgGCincoActivity.class);
-                startActivity(i6);
-                MainActivity.this.finish();
+                Intencion(LgGCincoActivity.class);
                 break;
             case R.id.btSamsungSSiete:
-                Intent i7 = new Intent(MainActivity.this ,SamsungSSieteActivity.class);
-                startActivity(i7);
-                MainActivity.this.finish();
+                Intencion(SamsungSSieteActivity.class);
                 break;
             case R.id.btSamsungSSieteEdge:
-                Intent i8 = new Intent(MainActivity.this ,SamsungSSieteEdgeActivity.class);
-                startActivity(i8);
-                MainActivity.this.finish();
+                Intencion(SamsungSSieteEdgeActivity.class);
                 break;
             case R.id.btXperiaX:
-                Intent i9 = new Intent(MainActivity.this ,XperiaXActivity.class);
-                startActivity(i9);
-                MainActivity.this.finish();
+                Intencion(XperiaXActivity.class);
                 break;
         }
+    }
+
+    public void Intencion(Class name){
+        Intent i = new Intent(MainActivity.this ,name);
+        startActivity(i);
+        MainActivity.this.finish();
     }
 
 }
