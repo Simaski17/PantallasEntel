@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
     Button btSamsungSSieteEdge;
     @BindView(R.id.btXperiaX)
     Button btXperiaX;
+    @BindView(R.id.btIphoneSeisS)
+    Button btIphoneSeisS;
+    @BindView(R.id.btIphoneSeisSPlus)
+    Button btIphoneSeisSPlus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btHuaweiMateOcho, R.id.btHuaweiPNueve, R.id.btIphoneCuatroSe, R.id.btIphoneSiete, R.id.btIphoneSietePlus, R.id.btLgGCinco, R.id.btSamsungSSiete, R.id.btSamsungSSieteEdge, R.id.btXperiaX})
+    @OnClick({R.id.btHuaweiMateOcho, R.id.btHuaweiPNueve, R.id.btIphoneCuatroSe, R.id.btIphoneSiete, R.id.btIphoneSietePlus, R.id.btLgGCinco, R.id.btSamsungSSiete, R.id.btSamsungSSieteEdge, R.id.btXperiaX, R.id.btIphoneSeisS, R.id.btIphoneSeisSPlus})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btHuaweiMateOcho:
@@ -84,11 +88,17 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btXperiaX:
                 Intencion(XperiaXActivity.class);
                 break;
+            case R.id.btIphoneSeisS:
+                Intencion(IphoneSeisSActivity.class);
+                break;
+            case R.id.btIphoneSeisSPlus:
+                Intencion(IphoneSeisSPlusActivity.class);
+                break;
         }
     }
 
-    public void Intencion(Class name){
-        Intent i = new Intent(MainActivity.this ,name);
+    public void Intencion(Class name) {
+        Intent i = new Intent(MainActivity.this, name);
         startActivity(i);
         MainActivity.this.finish();
     }

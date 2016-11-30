@@ -19,40 +19,38 @@
         </activity>
         <activity
             android:name=".HuaweiMateOchoActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".HuaweiPNueveActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".IphoneCuatroSeActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".IphoneSieteActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".IphoneSietePlusActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".LgGCincoActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".SamsungSSieteActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".SamsungSSieteEdgeActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
         <activity
             android:name=".XperiaXActivity"
-            android:theme="@style/myTema">
-        </activity>
+            android:theme="@style/myTema" />
+        <activity
+            android:name=".IphoneSeisSActivity"
+            android:theme="@style/myTema" />
+        <activity
+            android:name=".IphoneSeisSPlusActivity"
+            android:theme="@style/myTema" />
+        <activity android:name=".PruebaActivity"></activity>
     </application>
 
 </manifest>

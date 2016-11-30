@@ -5,6 +5,7 @@
     android:id="@+id/material_tabs"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/iphoneseisstres"
     tools:context=".MainActivity">
 
 
@@ -26,40 +27,40 @@
 
         <RelativeLayout
             android:layout_width="888dp"
-            android:layout_marginLeft="71dp"
+            android:layout_marginLeft="97dp"
             android:layout_height="match_parent">
 
 
 
             <ImageView
-                android:layout_width="343dp"
-                android:layout_height="230dp"
-                android:background="@drawable/iphonesieteplustitulotres"
-                android:layout_marginLeft="272dp"
-                android:layout_marginTop="88dp"/>
+                android:layout_width="465dp"
+                android:layout_height="232dp"
+                android:background="@drawable/iphoneseisstitulotres"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="89dp"/>
 
 
             <TextView
                 android:id="@+id/ivTituloTelefono"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Apple"
+                android:text="APPLE"
                 android:textSize="22.5sp"
                 android:textStyle="italic"
-                android:textColor="@color/NaranjaEntel"
-                android:layout_marginTop="985dp"
-                android:layout_marginLeft="414dp"/>
+                android:textColor="@color/NarajoEntel"
+                android:layout_marginTop="975dp"
+                android:layout_marginLeft="380dp"/>
 
             <TextView
                 android:id="@+id/ivTituloMarca"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="iPhone 7 Plus"
-                android:textSize="55sp"
+                android:text="iPhone 6S"
+                android:textSize="57sp"
                 android:textStyle="bold"
                 android:textColor="@color/AzulEntel"
-                android:layout_marginTop="1007dp"
-                android:layout_marginLeft="252dp"/>
+                android:layout_marginTop="992dp"
+                android:layout_marginLeft="270dp"/>
 
             <TextView
                 android:id="@+id/ivTituloMarca2"
@@ -69,33 +70,33 @@
                 android:textSize="55sp"
                 android:textStyle="bold"
                 android:textColor="@color/NaranjaEntel"
-                android:layout_marginTop="1008dp"
-                android:layout_marginLeft="602dp"/>
+                android:layout_marginTop="996dp"
+                android:layout_marginLeft="530dp"/>
 
 
 
             <TextView
                 android:id="@+id/ivTituloDospnuevo"
-                android:layout_width="690dp"
+                android:layout_width="630dp"
                 android:layout_height="138dp"
-                android:text="El iPhone 7 alcanza un nuevo nivel de innovación y precisión. El acabado negro brillante no se parece a nada de lo que hemos hecho antes. "
+                android:text="El chip mas avanzado en un smartphone ahora mas rapido y viene con un coprocesador de movimiento M9 integrado."
                 android:gravity="center"
                 android:textSize="22.5sp"
                 android:lineSpacingExtra="8dp"
                 android:textColor="@color/GrisOscuroEntel"
-                android:layout_marginTop="1092dp"
-                android:layout_marginLeft="110dp"/>
+                android:layout_marginTop="1055dp"
+                android:layout_marginLeft="103dp"/>
 
 
 
         </RelativeLayout>
 
         <ImageView
-            android:layout_width="844dp"
-            android:layout_height="325dp"
-            android:background="@drawable/iphonesieteplusimgtres"
-            android:layout_marginTop="610dp"
-            android:layout_marginLeft="115dp"/>
+            android:layout_width="452dp"
+            android:layout_height="577dp"
+            android:background="@drawable/iphoneseissimgtres"
+            android:layout_marginTop="355dp"
+            android:layout_marginLeft="288dp"/>
 
     </FrameLayout>
 

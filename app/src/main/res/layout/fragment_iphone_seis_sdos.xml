@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="97dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="472dp"
+            android:layout_height="113dp"
+            android:background="@drawable/iphoneseisstitulodos"
+            android:layout_marginLeft="208dp"
+            android:layout_marginTop="94dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APPLE"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="453dp"
+            android:layout_marginLeft="360dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone 6S_"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="472dp"
+            android:layout_marginLeft="360dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloGracias"
+            android:layout_width="460dp"
+            android:layout_height="150dp"
+            android:text="Disfruta velocidades de descaega dos veces mas rapidas de hasta 300 Mbps con 4G LTE Advanced y una conexion WI-FI mas rapida con 802.11ac con MIMO."
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="13dp"
+            android:textColor="@color/BlancoEntel"
+            android:layout_marginTop="555dp"
+            android:layout_marginLeft="360dp"/>
+
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/ivTituloDospnuevo"-->
+        <!--android:layout_width="605dp"-->
+        <!--android:layout_height="98dp"-->
+        <!--android:text="La nueva camara Face Time HD de 5MP iluminara tu sonrisa con Retina Flash"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="22.5sp"-->
+        <!--android:lineSpacingExtra="8dp"-->
+        <!--android:textColor="@color/GrisTextoOscuro"-->
+        <!--android:layout_marginTop="1073dp"-->
+        <!--android:layout_marginLeft="130dp"/>-->
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="338dp"
+        android:layout_height="710dp"
+        android:background="@drawable/iphoneseissimgdos"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="55dp"/>
+
+</FrameLayout>

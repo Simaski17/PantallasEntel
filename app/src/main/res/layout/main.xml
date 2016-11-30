@@ -84,4 +84,22 @@
         android:layout_margin="20dp"
         android:id="@+id/btXperiaX" />
 
+    <Button
+        android:text="Iphone 6S"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btIphoneSeisS" />
+
+    <Button
+        android:text="Iphone 6S Plus"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btIphoneSeisSPlus" />
+
 </LinearLayout>

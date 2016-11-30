@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-  <string name="app_name">PantallasEntel</string>
-  <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Hello blank fragment</string>
-  <string name="texto_gracias">Gracias a su perfecta combinacion de hardware y software con la camara dual de Leica, te permitira obtener fotografias de la mas alta calidad.</string>
-  <string name="texto_huawei_captura">Huawei P9 captura los deslumbrantes colores, la impactante precision del blanco y negro, el atractivo emocional de Leica</string>
-  <string name="ver_mas_equipos_destacados">[ ver mas EquipOs destacAdos ]</string>
-  <string name="descubre_un_mundo">Descubre un mundo mas vivo que nunca, que se acerca aun mas a sus colores naturales en una impresionante pantalla de 5,2 pulgadas Full HD con una saturacion del color del 96% y alto contraste.</string>
-  <string name="saca_una_foto">Saca una foto utilizando las dos camaras al mismo tiempo y conseguiras una imagen a la que podras añadir diferentes efectos (ojo de pez, blanco y negro, viñeta y efecto desenfoque) para personalizarlas.</string>
-  <string name="el_iphone_7_tiene_el">El iPhone 7 tiene el chip más potente que haya existido en un smartphone. Por eso no sólo es más rápido que los modelos de iPhone anteriores, también es más eficiente.</string>
-  <string name="el_iphone_7_alcanza">El iPhone 7 alcanza un nuevo nivel de innovación y precisión. El acabado negro brillante no se parece a nada de lo que hemos hecho antes.</string>
-  <string name="una_combinación_expl">Una combinación explosiva entre su nueva CPU personalizada, potente GPU y 4GB RAM. Todo sucede más rápido y fluido, desde abrir Apps hasta jugar o ver videos en streaming. Tu teléfono funcionará siempre como el primer día.</string>
-  <string name="gracias_a_su_perfect">Gracias a su perfecta combinación de hardware y software con la cámara dual de Leica, te permitirá obtener fotografías de la más alta calidad.</string>
+    <string name="app_name">PantallasEntel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_gracias">Gracias a su perfecta combinacion de hardware y software con la camara dual de Leica, te permitira obtener fotografias de la mas alta calidad.</string>
+    <string name="texto_huawei_captura">Huawei P9 captura los deslumbrantes colores, la impactante precision del blanco y negro, el atractivo emocional de Leica</string>
+    <string name="ver_mas_equipos_destacados">[ ver mas EquipOs destacAdos ]</string>
+    <string name="descubre_un_mundo">Descubre un mundo mas vivo que nunca, que se acerca aun mas a sus colores naturales en una impresionante pantalla de 5,2 pulgadas Full HD con una saturacion del color del 96% y alto contraste.</string>
+    <string name="saca_una_foto">Saca una foto utilizando las dos camaras al mismo tiempo y conseguiras una imagen a la que podras añadir diferentes efectos (ojo de pez, blanco y negro, viñeta y efecto desenfoque) para personalizarlas.</string>
+    <string name="el_iphone_7_tiene_el">El iPhone 7 tiene el chip más potente que haya existido en un smartphone. Por eso no sólo es más rápido que los modelos de iPhone anteriores, también es más eficiente.</string>
+    <string name="el_iphone_7_alcanza">El iPhone 7 alcanza un nuevo nivel de innovación y precisión. El acabado negro brillante no se parece a nada de lo que hemos hecho antes.</string>
+    <string name="una_combinación_expl">Una combinación explosiva entre su nueva CPU personalizada, potente GPU y 4GB RAM. Todo sucede más rápido y fluido, desde abrir Apps hasta jugar o ver videos en streaming. Tu teléfono funcionará siempre como el primer día.</string>
+    <string name="gracias_a_su_perfect">Gracias a su perfecta combinación de hardware y software con la cámara dual de Leica, te permitirá obtener fotografías de la más alta calidad.</string>
 </resources>
 

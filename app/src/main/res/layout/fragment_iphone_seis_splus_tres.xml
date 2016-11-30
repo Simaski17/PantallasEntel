@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="97dp"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="470dp"
+            android:layout_height="235dp"
+            android:background="@drawable/iphoneseissplustitulotres"
+            android:layout_marginLeft="193dp"
+            android:layout_marginTop="85dp"/>
+
+
+        <TextView
+            android:id="@+id/ivTituloTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APPLE"
+            android:textSize="22.5sp"
+            android:textStyle="italic"
+            android:textColor="@color/NarajoEntel"
+            android:layout_marginTop="972dp"
+            android:layout_marginLeft="386dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iPhone 6S PLUS"
+            android:textSize="57sp"
+            android:textStyle="bold"
+            android:textColor="@color/AzulEntel"
+            android:layout_marginTop="992dp"
+            android:layout_marginLeft="195dp"/>
+
+        <TextView
+            android:id="@+id/ivTituloMarca2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:textColor="@color/NaranjaEntel"
+            android:layout_marginTop="996dp"
+            android:layout_marginLeft="610dp"/>
+
+
+
+        <TextView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="630dp"
+            android:layout_height="138dp"
+            android:text="El iPhone ahora detectara cuanta presion aplica en la pantalla, dandote nuevas posibilidades para interactuar con un contenido y hacer todo mas rapido y facil"
+            android:gravity="center"
+            android:textSize="22.5sp"
+            android:lineSpacingExtra="8dp"
+            android:textColor="@color/GrisOscuroEntel"
+            android:layout_marginTop="1072dp"
+            android:layout_marginLeft="107dp"/>
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="452dp"
+        android:layout_height="577dp"
+        android:background="@drawable/iphoneseissplusimgtres"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="288dp"/>
+
+</FrameLayout>

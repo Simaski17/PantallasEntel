@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="995dp"
+    android:layout_height="1540dp"
+    android:layout_marginTop="202dp"
+    android:layout_marginLeft="26dp"
+    tools:context="com.rinno.simaski.pantallasentel.HuaweiPNueveUnoFragment">
+
+    <RelativeLayout
+        android:layout_width="888dp"
+        android:layout_marginLeft="97dp"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="190dp"
+            android:background="@drawable/equipodestacado"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="100dp"/>
+
+
+
+        <ImageView
+            android:id="@+id/ivTituloDospnuevo"
+            android:layout_width="722dp"
+            android:layout_height="99dp"
+            android:background="@drawable/iphoneseisstitulouno"
+            android:layout_marginTop="1100dp"
+            android:layout_marginLeft="58dp"/>
+
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="487dp"
+        android:layout_height="700dp"
+        android:background="@drawable/iphoneseissplusimguno"
+        android:layout_marginTop="348dp"
+        android:layout_marginLeft="275dp"/>
+
+</FrameLayout>

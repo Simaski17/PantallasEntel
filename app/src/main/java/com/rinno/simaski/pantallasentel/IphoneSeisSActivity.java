@@ -1,13 +1,12 @@
 package com.rinno.simaski.pantallasentel;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
@@ -16,14 +15,11 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.daimajia.androidanimations.library.Techniques;
-import com.daimajia.androidanimations.library.YoYo;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class HuaweiMateOchoActivity extends AppCompatActivity {
+public class IphoneSeisSActivity extends AppCompatActivity {
 
 
     int contCast = 0;
@@ -35,16 +31,6 @@ public class HuaweiMateOchoActivity extends AppCompatActivity {
     ViewPager pager;
     @BindView(R.id.btIrCatalogo)
     Button btIrCatalogo;
-    int bandera = 0;
-    String TAG = "HOLA";
-    MyPagerAdapter adapter;
-    int stateJimmy;
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        contCast = 0;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,48 +48,12 @@ public class HuaweiMateOchoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        contCast = 0;
 
         pager = (ViewPager) findViewById(R.id.pager);
-
-        pager.setPageTransformer(true, new ZoomOutPageTransformer());
-
-
         ViewPagerIndicator indicator = (ViewPagerIndicator) findViewById(R.id.pager_indicator);
-        adapter = new MyPagerAdapter(getSupportFragmentManager());
-        pager.setAdapter(adapter);
-
-
+        pager.setAdapter(new IphoneSeisSActivity.MyPagerAdapter(getSupportFragmentManager()));
 
         indicator.setPager(pager);
-
-        pager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-                if(position == 2 && positionOffset == 0.0 && stateJimmy == 1){
-                    contCast++;
-                    if(contCast == 1){
-                        Log.d(TAG,"ABRIR ACTIVITY");
-                        Intent intent = new Intent(HuaweiMateOchoActivity.this,PruebaActivity.class);
-                        startActivity(intent);
-                    }
-                }else{
-                    Log.d(TAG,"NO");
-
-                }
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-                stateJimmy = state;
-            }
-        });
 
 
     }
@@ -112,20 +62,15 @@ public class HuaweiMateOchoActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.ivFlechaIzquierda:
+                Toast.makeText(getApplication(), "Flecha", Toast.LENGTH_SHORT).show();
                 pager.setCurrentItem(pager.getCurrentItem() - 1, true); //getItem(-1) for previous
-                bandera--;
                 break;
             case R.id.ivFlechaDerecha:
+                Toast.makeText(getApplication(), "Flecha derecha", Toast.LENGTH_SHORT).show();
                 pager.setCurrentItem(pager.getCurrentItem() + 1, true); //getItem(-1) for previous
-                bandera++;
-                if(bandera == 3){
-                    Intent intent = new Intent(HuaweiMateOchoActivity.this,PruebaActivity.class);
-                    startActivity(intent);
-                    bandera = 2;
-                }
                 break;
             case R.id.btIrCatalogo:
-                Toast.makeText(this, "ID "+bandera, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplication(), "Flecha", Toast.LENGTH_SHORT).show();
                 //pager.setCurrentItem(pager.getCurrentItem() + 1, true); //getItem(-1) for previous
                 break;
         }
@@ -142,13 +87,13 @@ public class HuaweiMateOchoActivity extends AppCompatActivity {
             switch (pos) {
 
                 case 0:
-                    return new HuaweiMateOchoUnoFragment();
+                    return new IphoneSeisSUnoFragment();
                 case 1:
-                    return new HuaweiMateOchoDosFragment();
+                    return new IphoneSeisSDosFragment();
                 case 2:
-                    return new HuaweiMateOchoTresFragment();
+                    return new IphoneSeisSTresFragment();
                 default:
-                    return new HuaweiMateOchoUnoFragment();
+                    return new IphoneSeisSUnoFragment();
             }
         }
 
@@ -158,17 +103,15 @@ public class HuaweiMateOchoActivity extends AppCompatActivity {
         }
     }
 
-
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK || keyCode == KeyEvent.KEYCODE_HOME) {
 
-            Intent i = new Intent(HuaweiMateOchoActivity.this,MainActivity.class);
+            Intent i = new Intent(IphoneSeisSActivity.this,MainActivity.class);
             startActivity(i);
-            HuaweiMateOchoActivity.this.finish();
+            IphoneSeisSActivity.this.finish();
 
         }
         return true;
     }
-
 
 }
